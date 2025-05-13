@@ -1,6 +1,6 @@
 # 🎬 Machine-Learning-Project-Movie_Recommendation_System
 
-**📌 Project Overview**
+**📌 Project Overview :**
 
 This project is a content-based movie recommendation system built using machine learning techniques. It recommends similar movies to a user-selected title based on textual features such as genres, keywords, cast, and crew.
 
@@ -10,7 +10,7 @@ Two datasets were used:
 
 **Credits Dataset** – includes cast and crew details.
 
-**🔧 Tools & Libraries Used**
+**🔧 Tools & Libraries Used :**
 
 Python
 
@@ -22,9 +22,9 @@ scikit-learn – machine learning (CountVectorizer, cosine similarity)
 
 Jupyter Notebook
 
-**🔄 Workflow Summary**
+**🔄 Workflow Summary :**
 
-🧹** 1. Data Preprocessing**
+🧹 1.**Data Preprocessing**
 
 Merged movies.csv and credits.csv on the appropriate key.
 
@@ -54,7 +54,7 @@ Finds the most similar movies using cosine similarity.
 
 Returns the top 5 or 10 recommendations.
 
-💡** Key Insights**
+💡 **Key Insights :**
 
 Combining multiple metadata fields into a single bag-of-words helps improve the relevance of recommendations.
 
